@@ -4,7 +4,7 @@
 }
 
 .search-form{
-    padding: 50px;
+    padding: 20px;
 }
 
 h1{
@@ -14,13 +14,13 @@ h1{
     text-align:center;
     text-decoration: underline;
     font-family: 'Yeon Sung', cursive;
-    padding:50px;
+    padding:70px;
     text-shadow: 4px 4px white;
 }
 
 .label{
-    padding:18px;
     font-weight: bolder;
+    padding:18px;
     font-size: 16px;
     color:black;
     font-family:arial;
@@ -53,4 +53,19 @@ h1{
 .view{
     text-align: center;
     font-weight: bolder;
+    width:300px;
+    padding:10px;
+    text-align: center;
+}
+
+input[type=text]{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    width:400px;
+}
+
+.card{
+    padding:30px;
+    box-shadow:0 10px 10px 0;
 }

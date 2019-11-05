@@ -1,9 +1,10 @@
 <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css?family=Pacifico|Yeon+Sung&display=swap" rel="stylesheet">
+<div class="container-fluid">
 <h1>GITHUB  PROFILE  SEARCH..</h1> 
 <form action="" class="search-form">
     <div class="form-group">
-    <input type="text" class="form-control" placeholder="search git users with username" [(ngModel)]="username" name="username" (keyup)="findProfile()">  
+    <input type="text" class="form-control" placeholder="enter username here...." [(ngModel)]="username" name="username" (keyup)="findProfile()">  
     </div>
 </form> 
  <div *ngIf="profile">
@@ -23,7 +24,7 @@
                         </ul>
                       </div>
                 
-                <div class="col-sm-4">
+                <div class="col-sm-6">
                         <div>
                             <p>
                                 <span class="label"> {{profile.followers}} Followers</span>
@@ -50,7 +51,7 @@
                                         <br>
                                         <br>
 
-                                        <div class="card-header text-center"><h3 id="rname">{{repo.name}}</h3></div>                                  
+                                        <div class=" text-center"><h3 id="rname">{{repo.name}}</h3></div>                                  
                                         <div class="card-body">
                                         <p id="dec"> 
                                         {{repo.description}}
@@ -68,4 +69,5 @@
             </div> 
         </div> 
         </div>
+</div>
 </div>
