@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ProfileService }from './profile-service/profile.service';
 import { HttpClientModule } from '@angular/common/http';
+import { HttpClient } from 'selenium-webdriver/http';
 
 
 @NgModule({
@@ -20,7 +21,6 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     HttpClientModule,
     FormsModule
-    
   ],
   providers: [ProfileService],
   bootstrap: [AppComponent]
